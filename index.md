@@ -1,5 +1,6 @@
 @def title = "Franklin Example"
 @def tags = ["syntax", "code"]
+@def author = "edwinb"
 
 # How to use Franklin
 
@@ -44,9 +45,9 @@ You can also quote stuff
 
 or have tables:
 
-| English         | Mandarin   |
-| --------------- | ---------- |
-| winnie the pooh | 维尼熊      |
+| English         | Mandarin |
+| --------------- | -------- |
+| winnie the pooh | 维尼熊   |
 
 Note that you may have to do a bit of CSS-styling to get these elements to look the way you want them (the same holds for the whole page in fact).
 
