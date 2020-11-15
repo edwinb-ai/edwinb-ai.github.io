@@ -1,9 +1,15 @@
+@font-face {
+    font-family: JuliaMono-Regular;
+    src: url("https://cdn.jsdelivr.net/gh/cormullion/juliamono/webfonts/JuliaMono-Regular.woff2");
+}
+
 .hljs {
     display: block;
     overflow-x: auto;
     padding: .5em;
-    color: #333;
-    background: #f8f8f8
+    color: #fdd;
+    background: #34394a;
+    font-family: 'JuliaMono';
 }
 
 .hljs-comment,
@@ -15,7 +21,7 @@
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-subst {
-    color: #333;
+    color: #e899ff;
     font-weight: 700
 }
 
@@ -24,7 +30,7 @@
 .hljs-tag .hljs-attr,
 .hljs-template-variable,
 .hljs-variable {
-    color: teal
+    color: #ffe899
 }
 
 .hljs-doctag,
@@ -68,7 +74,7 @@
 
 .hljs-built_in,
 .hljs-builtin-name {
-    color: #0086b3
+    color: #99ffe8
 }
 
 .hljs-meta {

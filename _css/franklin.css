@@ -3,8 +3,8 @@
 ================================================================== */
 
 html {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 17px;
+    font-family: 'Libre Baskervilee', sans-serif;
+    font-size: 16px;
     color: #f4f4f4;
 }
 
@@ -92,6 +92,7 @@ html {
 
 .franklin-content h1 {
     font-size: 24px;
+    color: #cc7e8b;
 }
 
 .franklin-content h2 {
@@ -187,7 +188,7 @@ td {
 }
 
 .franklin-content blockquote {
-    background: #eeeeee;
+    background: #34394a;
     border-left: 7px solid #a8a8a8;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
@@ -221,11 +222,11 @@ td {
 ================================================================== */
 
 .franklin-content .eqref a {
-    color: green;
+    color: #b8f0ce;
 }
 
 .franklin-content .bibref a {
-    color: green;
+    color: #b8f0ce;
 }
 
 .franklin-content sup {
@@ -287,7 +288,7 @@ body {
 }
 
 .katex {
-    font-size: 1em !important;
+    font-size: 1.4em !important;
 }
 
 .katex-display .katex {
@@ -308,26 +309,33 @@ body {
     CODE & HIGHLIGHT.JS
 ================================================================== */
 
-code {
+/* code {
     background-color: rgba(27, 31, 35, 0.05);
     padding: 0.1em 0.2em;
     border-radius: 2px;
     font-size: 90%;
-}
+    font-family: 'JuliaMono';
+} */
 
-/* .franklin-content code { */
-/* background-color: rgba(27,31,35,0.05); */
-/* padding: 0.1em 0.2em; */
-/* border-radius: 2px; */
-/* font-size: 90%; } */
+/* .franklin-content code {
+    background-color: #707480;
+    color: #d0e9ff;
+    padding: 0.1em 0.2em;
+    border-radius: 2px;
+    font-size: 90%;
+    font-family: 'JuliaMono', serif;
+} */
 
-.hljs {
+/* .hljs {
     font-size: 90%;
     line-height: 1.35em;
     border-radius: 10px;
-}
+    background-color: #707480;
+    color: #d0e9ff;
+    font-family: 'JuliaMono', serif;
+} */
 
-.hljs-meta,
+/* .hljs-meta,
 .hljs-metas,
 .hljs-metap {
     font-weight: bold;
@@ -338,19 +346,20 @@ code {
 }
 
 .hljs-metas {
-    color: red;
+    /* color: red; */
 }
 
 .hljs-metap {
-    color: rgb(51, 131, 231);
+    color: rgb(51, 131, 200);
 }
 
+*/
 /* ==================================================================
     BOXES
 ================================================================== */
 
 .franklin-content .colbox-blue {
-    background-color: #EEF3F5;
+    background-color: #34394a;
     padding-top: 5px;
     padding-right: 10px;
     padding-left: 10px;

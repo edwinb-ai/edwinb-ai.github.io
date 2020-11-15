@@ -3,7 +3,14 @@
 /* Import ET Book styles
    adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 @font-face {
+     font-family: JuliaMono-Regular;
+     src: url("https://cdn.jsdelivr.net/gh/cormullion/juliamono/webfonts/JuliaMono-Regular.woff2");
+}
+
+/* @font-face {
      font-family: "et-book";
      src: url("../assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
      src: url("../assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix") format("embedded-opentype"), url("../assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff") format("woff"), url("../assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf") format("truetype"), url("../assets/et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf") format("svg");
@@ -25,7 +32,7 @@
      src: url("../assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix") format("embedded-opentype"), url("../assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff") format("woff"), url("../assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf") format("truetype"), url("../assets/et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf") format("svg");
      font-weight: bold;
      font-style: normal;
-}
+} */
 
 @font-face {
      font-family: "et-book-roman-old-style";
@@ -37,7 +44,7 @@
 
 /* Tufte CSS styles */
 html {
-     font-size: 15px;
+     font-size: 14px;
 }
 
 body {
@@ -45,7 +52,7 @@ body {
      margin-left: auto;
      margin-right: auto;
      /* padding-left: 12.5%; */
-     font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+     font-family: 'Libre Baskerville', Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
      background-color: #1e2436;
      color: #f4f4f4;
      max-width: 1400px;
@@ -220,16 +227,25 @@ a:visited {
      color: inherit;
 }
 
-a:link {
+/* a:link {
      text-decoration: none;
-     background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#333, #333);
-     background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(#333, #333);
+     background: -webkit-linear-gradient(#995e68, #995e68), -webkit-linear-gradient(#995e68, #995e68), -webkit-linear-gradient(#1e2436, #1e2436);
+     background: linear-gradient(#995e68, #995e68), linear-gradient(#995e68, #995e68), linear-gradient(#1e2436, #1e2436);
      -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
      -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
      background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
      background-repeat: no-repeat, no-repeat, repeat-x;
-     text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
+     text-shadow: 0.03em 0 #995e68, -0.03em 0 #995e68, 0 0.03em #995e68, 0 -0.03em #995e68, 0.06em 0 #995e68, -0.06em 0 #995e68, 0.09em 0 #995e68, -0.09em 0 #995e68, 0.12em 0 #995e68, -0.12em 0 #995e68, 0.15em 0 #995e68, -0.15em 0 #995e68;
      background-position: 0% 93%, 100% 93%, 0% 93%;
+} */
+
+a:link {
+     text-decoration: none;
+     color: #cc7e8b;
+}
+
+a:hover {
+     color: #d0e9ff;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
@@ -239,13 +255,13 @@ a:link {
 }
 
 a:link::selection {
-     text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
-     background: #b4d5fe;
+     text-shadow: 0.03em 0 #d0e9ff, -0.03em 0 #d0e9ff, 0 0.03em #d0e9ff, 0 -0.03em #d0e9ff, 0.06em 0 #d0e9ff, -0.06em 0 #d0e9ff, 0.09em 0 #d0e9ff, -0.09em 0 #d0e9ff, 0.12em 0 #d0e9ff, -0.12em 0 #d0e9ff, 0.15em 0 #d0e9ff, -0.15em 0 #d0e9ff;
+     background: #d0e9ff;
 }
 
 a:link::-moz-selection {
-     text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
-     background: #b4d5fe;
+     text-shadow: 0.03em 0 #d0e9ff, -0.03em 0 #d0e9ff, 0 0.03em #d0e9ff, 0 -0.03em #d0e9ff, 0.06em 0 #d0e9ff, -0.06em 0 #d0e9ff, 0.09em 0 #d0e9ff, -0.09em 0 #d0e9ff, 0.12em 0 #d0e9ff, -0.12em 0 #d0e9ff, 0.15em 0 #d0e9ff, -0.15em 0 #d0e9ff;
+     background: #d0e9ff;
 }
 
 /* Sidenotes, margin notes, figures, captions */
@@ -314,7 +330,7 @@ div.table-wrapper {
 }
 
 code {
-     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+     font-family: "JuliaMono";
      font-size: 1.0rem;
      line-height: 1.42;
 }
@@ -334,12 +350,13 @@ h3>code {
      font-size: 1rem;
 }
 
-pre.code {
+/* pre.code {
      font-size: 0.9rem;
      width: 52.5%;
      margin-left: 2.5%;
      overflow-x: auto;
-}
+     font-family: 'JuliaMono';
+} */
 
 pre.code.fullwidth {
      width: 90%;
