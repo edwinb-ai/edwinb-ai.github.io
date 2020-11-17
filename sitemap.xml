@@ -2,32 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>https://tlienart.github.io/FranklinTemplates.jl/menu2/index.html</loc>
-    <lastmod>2020-11-14</lastmod>
+    <loc>https://edwinb-ai.github.io/projects/index.html</loc>
+    <lastmod>2020-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://tlienart.github.io/FranklinTemplates.jl/404/index.html</loc>
-    <lastmod>2020-11-14</lastmod>
+    <loc>https://edwinb-ai.github.io/404/index.html</loc>
+    <lastmod>2020-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://tlienart.github.io/FranklinTemplates.jl/menu3/index.html</loc>
-    <lastmod>2020-11-14</lastmod>
+    <loc>https://edwinb-ai.github.io/about/index.html</loc>
+    <lastmod>2020-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://tlienart.github.io/FranklinTemplates.jl/index.html</loc>
-    <lastmod>2020-11-14</lastmod>
+    <loc>https://edwinb-ai.github.io/index.html</loc>
+    <lastmod>2020-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>https://tlienart.github.io/FranklinTemplates.jl/menu1/index.html</loc>
-    <lastmod>2020-11-14</lastmod>
+    <loc>https://edwinb-ai.github.io/outreach/index.html</loc>
+    <lastmod>2020-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://edwinb-ai.github.io/blog/index.html</loc>
+    <lastmod>2020-11-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
