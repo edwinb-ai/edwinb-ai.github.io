@@ -1,4 +1,5 @@
 using Dates
+using Random
 
 function hfun_bar(vname)
     val = Meta.parse(vname[1])
@@ -61,5 +62,13 @@ function hfun_blogposts()
         write(io, """$date</i></span><a href="$url">$title</a>""")
     end
     write(io, "</ul>")
+    return String(take!(io))
+end
+
+function hfun_rndnumber()
+    io = IOBuffer()
+    rng = RandomDevice()
+    a = abs(rand(Random.seed!(rng), Int))
+    write(io, "<p>$a</p>")
     return String(take!(io))
 end

@@ -1,4 +1,5 @@
 @def title="First blog entry"
+@def author="edwinb"
 
 # This is the first entry
 
