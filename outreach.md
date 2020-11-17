@@ -8,7 +8,7 @@ and interesting enough to get into those topics.
 
 ## Teaching
 
-- [TimeSeriesConcepts.jl](https://github.com/BioLogs/TimeSeriesConcepts.jl) is an effort to teach people about time series. What these are and how are they handled. These pages are meant to teach, along with code, about time series fundamentals. I also maintain the [Python version](https://github.com/BioLogs/TimeSeriesConcepts.py).
+- [TimeSeriesConcepts.jl](https://github.com/BioLogs/TimeSeriesConcepts.jl) is a collective effort, together with the [BioLogs organization](https://github.com/BioLogs), to teach people about time series; what these are and how are they handled. These pages are meant to teach, along with code, about time series fundamentals. I also maintain the [Python version](https://github.com/BioLogs/TimeSeriesConcepts.py).
 - A very simple and straightforward workshop, [these notebooks](https://github.com/edwinb-ai/deep-workshop) are meant to teach the bare essentials of Deep Learning with the MNIST dataset. Also written in Spanish, they should be enough to get you started on this fantastic topic of Machine Learning.
 
 ## Outreach
